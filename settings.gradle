@@ -1,0 +1,9 @@
+// main app
+include ':app', ':core'
+//library module
+include ':modulehome'
+
+// for  module
+include ':module:home'
+
+rootProject.name = 'ModuleFrame'
